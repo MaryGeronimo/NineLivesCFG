@@ -1,0 +1,54 @@
+.Brand{
+    font-family: 'Delicious Handrawn', cursive;
+    display: inline;
+        text-align: top;
+        font-size: 60px;
+}
+
+.logo{
+    padding-left: 15px;
+}
+
+.about{
+    background-color: #d99ace;
+}
+
+header{
+    background-color: #d99ace;
+}
+
+nav{
+    text-align: right;
+}
+
+.Homepage{
+    text-align: right;
+    background-color: #8f227c;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px 5px 10px;
+}
+
+.Movies{
+    text-align: right;
+    background-color: #8f227c;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px 5px 10px;
+}
+
+.Games{
+    text-align: right;
+    background-color: #8f227c;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px 5px 10px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h1.a {font-family: "Audiowide", sans-serif;}
+h1.b {font-family: "Sofia", sans-serif;}
+h1.c {font-family: "Trirong", serif;}
