@@ -13,8 +13,18 @@
     background-color: #d99ace;
 }
 
-header{
-    background-color: #d99ace;
+.navbar{
+    /* background-color: #d99ace; */
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%
+   
+    
+}
+
+.block {
+    height: 200px;
 }
 
 nav{
@@ -27,6 +37,14 @@ nav{
     border-radius: 5px;
     color: white;
     padding: 0 10px 5px 10px;
+    margin: 5px
+    
+}
+
+.curvenav {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 
