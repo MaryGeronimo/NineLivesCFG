@@ -21,7 +21,7 @@ nav{
     text-align: right;
 }
 
-.Homepage{
+.NavLink {
     text-align: right;
     background-color: #8f227c;
     border-radius: 5px;
@@ -29,23 +29,8 @@ nav{
     padding: 0 10px 5px 10px;
 }
 
-.Movies{
-    text-align: right;
-    background-color: #8f227c;
-    border-radius: 5px;
-    color: white;
-    padding: 0 10px 5px 10px;
-}
 
-.Games{
-    text-align: right;
-    background-color: #8f227c;
-    border-radius: 5px;
-    color: white;
-    padding: 0 10px 5px 10px;
-}
-
-h2{
+h2 {
     font-size: 20px;
 }
 
