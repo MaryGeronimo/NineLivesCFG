@@ -3,6 +3,7 @@
     display: inline;
         text-align: top;
         font-size: 60px;
+        /* text-shadow: 2px 5px 5px #1b1b1b; */
 }
 
 .logo{
@@ -34,11 +35,13 @@ nav{
 .NavLink {
     text-align: right;
     background-color: #8f227c;
-    border-radius: 5px;
+    /* width: 500px; */
+    /* height: 300px; */
+    border-radius: 50%;
     color: white;
-    padding: 0 10px 5px 10px;
-    margin: 5px
-    
+    padding: 10px 20px 15px 20px;
+    margin: 8px;
+       
 }
 
 .curvenav {
