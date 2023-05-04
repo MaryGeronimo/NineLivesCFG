@@ -55,6 +55,56 @@ h2 {
     font-size: 20px;
 }
 
+.catArt{
+    display: flex;
+    text-align: center;
+    background-color: #a9d99a;
+    width: 1420px;
+    height: 220px;
+    padding: 10px;
+    margin: 30px 0 30px 30px;
+}
+
+.catArt p{
+    background-color: beige;
+    height:180px;
+    margin: 10px;
+    padding: 10px 10px 10px 0;
+}
+
+.catArt img{
+    align-items: left;
+}
+
+.ruthCat{
+    padding-right: 10px;
+}
+
+.catArt b{
+    font-family: "Delicious Handrawn";
+    font-size: xx-large;
+}
+
+.homeCats{
+    text-align: right;  
+    display: flex;
+    text-align: center;
+    background-color: #a9d99a;
+    width: 1420px;
+    padding: 10px;
+    margin: 30px 0 30px 30px;  
+}
+
+.homeCats p{
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+
+.homeCats img{
+    align-items: left;
+}
+
 h1.a {font-family: "Audiowide", sans-serif;}
 h1.b {font-family: "Sofia", sans-serif;}
 h1.c {font-family: "Trirong", serif;}
