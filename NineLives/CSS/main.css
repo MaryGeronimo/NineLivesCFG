@@ -130,3 +130,12 @@ footer{
 circle1{
     background-color: black;
 }
+.btn{
+    height:50px;
+    width: 100px;
+    background-color: #8f227c;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+
+}
