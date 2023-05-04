@@ -118,17 +118,43 @@ footer{
     padding: 60px;
 
 }
-.white-circle{
+.wrapper .button{
+    display: inline-block;
     height: 60px;
     width: 60px;
+    margin: 0 5px;
+    float: left;
+    overflow: hidden;
     background-color: white;
-    border-radius: 50%;
-   display: inline-block;
-   justify-content: space-between;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5) ;
+    transition: all 0.3s ease-out;
 
 }
-circle1{
-    background-color: black;
+
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper .button .icons{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.wrapper .button .icons img{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
 }
 .btn{
     height:50px;
