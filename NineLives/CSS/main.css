@@ -3,44 +3,46 @@
     display: inline;
         text-align: top;
         font-size: 60px;
-        /* text-shadow: 2px 5px 5px #1b1b1b; */
+        text-shadow: 2px 3px 4px #5a5a5a;
 }
 /*navbar starts here*/
 .logo{
     padding-left: 15px;
+    margin-top: 15px;
+    webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
+
 }
 
-.about{
+.about {
     background-color: #d99ace;
 }
 
-.navbar{
+.navbar {
     /* background-color: #d99ace; */
     display: flex;
     position: fixed;
-    top: 0;
+    top: -40px;
     width: 100%
-   
-    
 }
 
 .block {
     height: 200px;
 }
 
-nav{
+nav {
     text-align: right;
 }
 
 .NavLink {
     text-align: right;
     background-color: #8f227c;
-    /* width: 500px; */
-    /* height: 300px; */
     border-radius: 50%;
     color: white;
     padding: 10px 20px 15px 20px;
     margin: 8px;
+    box-shadow: 2px 3px 2px #400e38;
+    font-family:cursive
        
 }
 
@@ -50,11 +52,13 @@ nav{
     left: 0;
 }
 /*navbar ends here*/
+
 /* main header starts here*/
 h2 {
     font-size: 20px;
 }
 /* main header ends here*/
+
 /* body starts here*/
 .catArt{
     display: flex;
