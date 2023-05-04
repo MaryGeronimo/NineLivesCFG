@@ -8,6 +8,8 @@
 /*navbar starts here*/
 .logo{
     padding-left: 15px;
+    margin-top: 15px;
+
 }
 
 .about{
@@ -18,7 +20,7 @@
     /* background-color: #d99ace; */
     display: flex;
     position: fixed;
-    top: 0;
+    top: -40px;
     width: 100%
    
     
@@ -28,7 +30,7 @@
     height: 200px;
 }
 
-nav{
+nav {
     text-align: right;
 }
 
