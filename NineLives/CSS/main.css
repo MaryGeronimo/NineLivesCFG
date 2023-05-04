@@ -116,4 +116,17 @@ footer{
     background-color:#d99ace;
     margin-top: 30px;
     padding: 60px;
+
+}
+.white-circle{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+   display: inline-block;
+   justify-content: space-between;
+
+}
+circle1{
+    background-color: black;
 }
