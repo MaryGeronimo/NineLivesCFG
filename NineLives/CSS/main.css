@@ -135,6 +135,7 @@ footer{
 
 .wrapper .button:hover{
     width: 200px;
+    background-color: #8f227c;
 }
 .wrapper .button .icons{
     display: inline-block;
@@ -159,7 +160,7 @@ footer{
 .btn{
     height: 60px;
     width: 200px;
-    background-color: #8f227c;
+    background-color: #fffeff;
     border-radius: 50px;
     margin-left: 190px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5) ;
@@ -167,5 +168,9 @@ footer{
 }
 .btn:hover{
 width: 200px;
-background-color: #a9d99a;
+background-color:#8f227c;
+}
+
+.btn .youtube{
+    width: 100px;
 }
