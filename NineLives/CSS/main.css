@@ -42,8 +42,12 @@ nav {
     padding: 10px 20px 15px 20px;
     margin: 8px;
     box-shadow: 2px 3px 2px #400e38;
-    font-family:cursive
-       
+    font-family:cursive      
+}
+
+.NavLink:hover {
+    background-color: #a9d99a;
+    color: black;
 }
 
 .curvenav {
@@ -109,6 +113,7 @@ h2 {
 .homeCats img{
     align-items: left;
 }
+
 
 h1.a {font-family: "Audiowide", sans-serif;}
 h1.b {font-family: "Sofia", sans-serif;}
