@@ -122,7 +122,7 @@ footer{
     display: inline-block;
     height: 60px;
     width: 60px;
-    margin: 0 5px;
+    margin: 0 10px;
     float: left;
     overflow: hidden;
     background-color: white;
@@ -157,11 +157,15 @@ footer{
     margin-left: 10px;
 }
 .btn{
-    height:50px;
-    width: 100px;
+    height: 60px;
+    width: 200px;
     background-color: #8f227c;
     border-radius: 50px;
-    display: flex;
-    justify-content: center;
+    margin-left: 190px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5) ;
 
+}
+.btn:hover{
+width: 200px;
+background-color: #a9d99a;
 }
