@@ -5,15 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nine Lives</title>
-    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/MovieCSS.css">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
+    />
+
+    <!--Main font style-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+    </style>
+
 </head>
 <body>
-    <nav>
-        <a class="Homepage" href="./index.html">Homepage</a>
+    <nav class="navbar"> 
+        <div>
+            <img class="logoIcon" src="../Pictures/Icons/Website Logo Final Choice.png"/>
+        </div>
+        <h1 class="websiteName">Nine Lives</h1>
+            <ul class="nav-list" id="navi-list">
+                <li class="nav-links">
+                    <a href="./index.html">Homepage</a>
+                </li>
+                <li class="nav-links">
+                   <a href="./movies.html">Furry Flix</a>
+                </li>
+                <li class="nav-links">
+                    <a href="./games.html">Cat Quests</a>
+                </li>
+            </ul>
+            <div class="menu" id="toggleButton">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        
+        <!-- <a class="Homepage" href="./index.html">Homepage</a>
         <a class="Movies" href="./movies.html">Furry Flix</a>
-        <a class="Games" href="./games.html">Cat Quests</a>
+        <a class="Games" href="./games.html">Cat Quests</a> -->
    </nav>
+   <br>
 <h1> Purrformers since birth, cats are inherent actors! Here are some of their best purrformances</h1>    
-<script src="../JS/java.js"></script>     
+
+
+
+
+
+<!-- This JS does not work when it is the separate JS file, but does when it is within the html code -->
+<script>
+
+const toggleButton = document.getElementById(`toggleButton`);    
+const naviList =  document.getElementById(`navi-list`);
+
+toggleButton.addEventListener(`click`, () => {
+    naviList.classList.toggle(`active`);
+ 
+})
+</script>
+// <!-- <script src="../JS/java.js"></script>      -->
 </body>
 </html>

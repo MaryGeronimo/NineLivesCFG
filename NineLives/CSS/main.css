@@ -22,7 +22,7 @@
     /* background-color: #d99ace; */
     display: flex;
     position: fixed;
-    top: -40px;
+    top: -65px;
     width: 100%
 }
 
@@ -42,11 +42,12 @@ nav {
     padding: 10px 20px 15px 20px;
     margin: 8px;
     box-shadow: 2px 3px 2px #400e38;
-    font-family:cursive      
+    font-family:cursive;
+    transition: all 0.3s ease-out;      
 }
 
 .NavLink:hover {
-    background-color: #a9d99a;
+    background-color: hsl(0, 0%, 100%);
     color: black;
 }
 
@@ -113,6 +114,7 @@ h2 {
 .homeCats img{
     align-items: left;
 }
+
 
 
 h1.a {font-family: "Audiowide", sans-serif;}
@@ -182,4 +184,32 @@ background-color:#8f227c;
 
 .btn .youtube{
     width: 100px;
+}
+
+/* xs */
+@media (min-width: 475px) {}
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {}
+
+/* lg */
+@media (min-width: 1024px) {}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* 2xl */
+@media (min-width: 1536px) {}
+
+@media (min-width: 3200px) {
+ .Brand {
+    font-size: 1.5rem;
+ } 
+ 
+ .NavLink {
+    font-size: 0.8rem;
+ }
 }
