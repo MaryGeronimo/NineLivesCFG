@@ -24,6 +24,7 @@
     color: black;
     font-size: 50px;
     text-shadow: 2px 3px 4px #5a5a5a;
+    display: flex;
 
     
 }
@@ -106,12 +107,17 @@
     .logoIcon {
         margin-top: -2px;
         margin-bottom: 10px;
-        margin-left: -2px;
-        height: 80px;
+        margin-left: 12px;
+        height: 100px;
     }
 
+    .websiteName {
+        margin-bottom: 14px;
+        margin-left: 16px;
+    }
     .active {
         display: block;
         transition: all 0.3s ease-out;
+        margin-bottom: 12px;
     }
 }
