@@ -10,11 +10,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .logoIcon {
     height: 150px;
+    webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
+}
+
+.websiteName {
+    font-family: 'Delicious Handrawn', cursive;
+    color: black;
+    font-size: 50px;
+    text-shadow: 2px 3px 4px #5a5a5a;
+
+    
 }
 
 .nav-list {
@@ -31,8 +42,21 @@
     padding: 10px 20px 15px 20px; 
     font-family: cursive;
     margin: 8px;
+    box-shadow: 2px 3px 2px #400e38;
     transition: all 0.3s ease-out;  
       
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    color: white;
+    
+}
+
+.block {
+    height: 200px;
 }
 
 .navbar a {
@@ -44,6 +68,10 @@
     background-color: white;
 }    
 
+.navbar a:hover {
+    color: black 
+}
+
 .menu {
     display: none;
 }
@@ -54,7 +82,7 @@
     margin-bottom: 4px;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 600px) {
     .navbar {
         flex-direction: column;
     }
@@ -84,5 +112,6 @@
 
     .active {
         display: block;
+        transition: all 0.3s ease-out;
     }
 }
