@@ -83,6 +83,7 @@
     margin-bottom: 4px;
 }
 
+/* Mobile screen responsive code for */
 @media all and (max-width: 600px) {
     .navbar {
         flex-direction: column;
