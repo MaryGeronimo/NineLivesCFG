@@ -40,7 +40,7 @@ function check(){
     document.getElementById('number_correct').innerHTML = 'you got ' + correct + ' correct';
 
 }
-//enables mobile dropdown link menu
+//enables Navbar mobile dropdown link menu
 const toggleButton = document.getElementById(`toggleButton`);    
 const naviList =  document.getElementById(`navi-list`);
 
