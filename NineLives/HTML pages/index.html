@@ -13,7 +13,11 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="/NineLives/CSS/main.css" />
+    <!-- Have changed CSS link to relative path -->
+    <link rel="stylesheet" href="../CSS/main.css" />
+
+    <!-- Navbar CSS -->
+    <link rel="stylesheet" href="../CSS/Nav.css">
 
     <link
       rel="stylesheet"
@@ -26,43 +30,35 @@
     </style>
   </head>
   <body>
-    <!--navbar starts here-->
+   
+    <!-- Navbar starts here -->
     <header>
-      <div class="block"></div>
-      <svg
-        class="curvenav"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 319"
-      >
-        <path
-          fill="#d99ace"
-          fill-opacity="1"
-          d="M0,192L30,181.3C60,171,120,149,180,128C240,107,300,85,360,80C420,75,480,85,540,96C600,107,660,117,720,117.3C780,117,840,107,900,101.3C960,96,1020,96,1080,106.7C1140,117,1200,139,1260,138.7C1320,139,1380,117,1410,106.7L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
-        ></path>
-      </svg>
-      <!-- Bootstrap used to align items -->
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <img
-              class="logo"
-              height="200px"
-              width="250px"
-              src="/NineLives/Pictures/Icons/Website Logo Final Choice.png"
-            />
-            <h1 class="Brand">Nine Lives</h1>
-          </div>
+        
+      <nav class="navbar"> 
           <div>
-            <a class="NavLink" href="./index.html">Homepage</a>
-            <a class="NavLink" href="./movies.html">Furry Flix</a>
-            <a class="NavLink" href="./games.html">Cat Quests</a>
+              <img class="logoIcon" src="../Pictures/Icons/Website Logo Final Choice.png"/>
           </div>
-        </div>
+          <h1 class="websiteName">Nine Lives</h1>
+          <ul class="nav-list" id="navi-list">
+              <li class="nav-links">
+                  <a href="./index.html">Homepage</a>
+              </li>
+              <li class="nav-links">
+                  <a href="./movies.html">Furry Flix</a>
+              </li>
+              <li class="nav-links">
+                  <a href="./games.html">Cat Quests</a>
+              </li>
+          </ul>
+          <div class="menu" id="toggleButton">
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+          </div>
       </nav>
-    </header>
-    <!--navbar ends here-->
-    <br />
-    <!--main header starts here-->
+     <div class="block"></div>
+      </header>
+      <!-- Navbar ens here -->
     <br />
     <h2 class="about">
       <img
@@ -77,6 +73,7 @@
       from their meowsical debuts to their heroic tails.
     </h2>
     <!--main header ends here-->
+    
     <!--body starts here-->
     <!--paragraph on cat art inc. link to EXTERNAL site-->
     <div class="catArt">
@@ -330,5 +327,54 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
+        <div class="button">
+          <div class="icons">
+            <a href="http://tiktok.com/@NineLives.Trivia"
+              ><img
+                src="/NineLives/Pictures/Icons/TikTok_Icon_Black_Circle.png"
+                width="40px"
+            /></a>
+          </div>
+          <span>tiktok</span>
+        </div>
+
+        <div class="button">
+          <div class="icons">
+            <a href="https://twitter.com/NineLives_Triv"
+              ><img
+                src="/NineLives/Pictures/Icons/2021 Twitter logo - black.png"
+                width="40px"
+            /></a>
+          </div>
+          <span>twitter</span>
+        </div>
+
+        <div class="button">
+          <div class="icons">
+            <a href="https://www.facebook.com/NineLives.Trivia"
+              ><img
+                src="/NineLives/Pictures/Icons/f_logo_RGB-Black_72.png"
+                width="40px"
+            /></a>
+          </div>
+          <span>facebook</span>
+        </div>
+      </div>
+
+      <div class="button2">
+        <button class="btn">
+          <a class="link" href="https://www.youtube.com/@NineLives.Trivia">
+            <img
+              class="youtube"
+              src="/NineLives/Pictures/Icons/yt_logo_rgb_light.png"
+              width="70px"
+            />
+          </a>
+        </button>
+      </div>
+    </footer>
+
+    <script src="../JS/java.js"></script>
   </body>
 </html>

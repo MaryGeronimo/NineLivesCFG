@@ -1,60 +1,10 @@
-.Brand{
-    font-family: 'Delicious Handrawn', cursive;
-    display: inline;
-        text-align: top;
-        font-size: 60px;
-        /* text-shadow: 2px 5px 5px #1b1b1b; */
-}
-/*navbar starts here*/
-.logo{
-    padding-left: 15px;
-}
 
-.about{
-    background-color: #d99ace;
-}
-
-.navbar{
-    /* background-color: #d99ace; */
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%
-   
-    
-}
-
-.block {
-    height: 200px;
-}
-
-nav{
-    text-align: right;
-}
-
-.NavLink {
-    text-align: right;
-    background-color: #8f227c;
-    /* width: 500px; */
-    /* height: 300px; */
-    border-radius: 50%;
-    color: white;
-    padding: 10px 20px 15px 20px;
-    margin: 8px;
-       
-}
-
-.curvenav {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-/*navbar ends here*/
 /* main header starts here*/
 h2 {
     font-size: 20px;
 }
 /* main header ends here*/
+
 /* body starts here*/
 .catArt{
     display: flex;
@@ -105,6 +55,8 @@ h2 {
 .homeCats img{
     align-items: left;
 }
+
+
 
 h1.a {font-family: "Audiowide", sans-serif;}
 h1.b {font-family: "Sofia", sans-serif;}
@@ -181,3 +133,32 @@ background-color:#8f227c;
     visibility: hidden;
 }
 
+}
+
+/* xs */
+@media (min-width: 475px) {}
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {}
+
+/* lg */
+@media (min-width: 1024px) {}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* 2xl */
+@media (min-width: 1536px) {}
+
+@media (min-width: 3200px) {
+ .Brand {
+    font-size: 1.5rem;
+ } 
+ 
+ .NavLink {
+    font-size: 0.8rem;
+ }
+}
