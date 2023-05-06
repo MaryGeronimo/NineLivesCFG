@@ -13,10 +13,28 @@ function check(){
         correct++;
     }
 
-    if (question3 == 'All the time') {
+    if (question3 == 'all the time') {
         correct++;
     }
 
+    var messages = ['you are garfield', 'you are puss in boots', 'you are tom'];
+
+    var range;
+
+    if (correct < 1) {
+        range = 2;
+    }
+
+    if (correct > 0 && correct < 3) {
+        range = 1;
+    }
+
+    if (correct > 2) {
+        range = 0;
+    }
+
     document.getElementById('after_submit').style.visibility = 'visible';
+
+    document.getElementById('messages').innerHTML = messages[range];
     document.getElementById('number_correct').innerHTML = 'you got ' + correct + ' correct';
 }
