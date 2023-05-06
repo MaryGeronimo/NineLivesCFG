@@ -156,6 +156,13 @@ background-color:#8f227c;
     visibility: hidden;
 }
 
+}
+/* footer ends here*/
+/* javascript quiz starts here*/
+#after_submit {
+    visibility: hidden;
+}
+
 
 /* xs */
 @media (min-width: 475px) {}
