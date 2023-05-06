@@ -156,7 +156,6 @@ background-color:#8f227c;
     visibility: hidden;
 }
 
-}
 /* footer ends here*/
 /* javascript quiz starts here*/
 #after_submit {
@@ -183,11 +182,6 @@ background-color:#8f227c;
 @media (min-width: 1536px) {}
 
 @media (min-width: 3200px) {
- .Brand {
-    font-size: 1.5rem;
- } 
+
  
- .NavLink {
-    font-size: 0.8rem;
- }
 }
