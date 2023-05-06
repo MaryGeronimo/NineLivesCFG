@@ -18,6 +18,7 @@ function check(){
     }
 
     var messages = ['you are garfield', 'you are puss in boots', 'you are tom'];
+    
 
     var range;
 
@@ -37,4 +38,5 @@ function check(){
 
     document.getElementById('messages').innerHTML = messages[range];
     document.getElementById('number_correct').innerHTML = 'you got ' + correct + ' correct';
+
 }
