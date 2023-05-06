@@ -6,6 +6,30 @@ h2 {
 /* main header ends here*/
 
 /* body starts here*/
+
+.Intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 45px;
+    height: 100px;
+    background-color: #d99ace;
+    border-radius: 15px;
+}
+
+.link{
+    color: #8f227c;
+}
+
+.about{
+    padding-right:50px;
+    font-size: medium;
+}
+
+.catVase{
+    padding-left: 30px;
+}
+
 .catArt{
     display: flex;
     text-align: center;
@@ -16,15 +40,17 @@ h2 {
     margin: 30px 0 30px 30px;
 }
 
+
 .catArt p{
-    background-color: beige;
+    background-color: #daffcf;
     height:180px;
     margin: 10px;
     padding: 10px 10px 10px 0;
 }
 
-.catArt img{
+.camera{
     align-items: left;
+    margin-top: 20px;
 }
 
 .ruthCat{
@@ -47,7 +73,7 @@ h2 {
 }
 
 .homeCats p{
-    background-color: beige;
+    background-color:#daffcf;
     margin: 10px;
     padding: 10px;
 }
