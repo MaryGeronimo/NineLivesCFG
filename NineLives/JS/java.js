@@ -41,6 +41,29 @@ function check(){
 
 }
 
+function hover(img) {
+    img.src = "../Pictures/Icons/Photography Icon Purple.png";
+}
+
+function hoverOut(img){
+    img.src = "../Pictures/Icons/Photography Icon V3.png"
+   }
+
+//    function hover(img) {
+//     img.src = "../Pictures/Icons/Film Icon Purple.png";
+// }
+
+// function hoverOut(img){
+//     img.src = "../Pictures/Icons/Film Icon V3.png"
+//    }
+
+//    function hover(img) {
+//     img.src = "../Pictures/Icons/Game Icon Purple.png";
+// }
+
+// function hoverOut(img){
+//     img.src = "../Pictures/Icons/Film Icon V3.png"
+//    }
 
 //enables Navbar mobile dropdown link menu
 const toggleButton = document.getElementById(`toggleButton`);    
