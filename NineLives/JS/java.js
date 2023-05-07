@@ -1,7 +1,14 @@
 //quiz part
 const questions = [['what do you like more?','sleep','food'], ['what do you like to eat?','pizza','lasagna']]
 var questionNo = 1;
+var score = 0;
 
+function clickButton(){
+    questions.shift();
+    questionNo++;
+    setup();
+    
+}
 
 
 
