@@ -1,3 +1,7 @@
+.blockm{
+    height:120px;
+}
+
 .filmGrabs{
     padding: 5%;
     display: flex;
@@ -35,10 +39,95 @@ a span{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
 }
 
 .Meowvies p{
+    background-color:#daffcf;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.movieText{
+    text-align: left;  
+    display: flex;
+    text-align: left;
+    background-color: #a9d99a;
+    width: 80%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+
+.movieText p{
+    background-color:#daffcf;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.movieInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.floatLeft{
+    padding-right: 0;
+}
+
+.catVideo{
+    padding-left: 0%;
+    padding-right: 5vw;
+}
+
+.gameGrabs{
+    padding-bottom: 5%;
+    display: flex;
+    position: relative;
+}
+
+.gameCats{
+    width: 27vw;
+    height: 315px;
+    margin-right: 5vw;
+
+}
+
+#stray{
+    padding: 0 60px;
+}
+
+.gameVideo{
+    padding-left: 5vw;
+    padding-right: 0%;
+}
+
+.gameInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gameBox{
+    padding-left: 100px;
+}
+
+.gameText{
+    text-align: left;  
+    display: flex;
+    text-align: left;
+    background-color: #a9d99a;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+
+.gameText p{
     background-color:#daffcf;
     margin: 10px;
     padding: 10px;
