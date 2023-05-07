@@ -87,7 +87,7 @@
 
 /* Mobile screen responsive code for */
 @media all and (max-width: 600px) {
-    .ninelivesnavbar {
+    .ninelivesnavbar { 
         flex-direction: column;
     }
     .menu {
