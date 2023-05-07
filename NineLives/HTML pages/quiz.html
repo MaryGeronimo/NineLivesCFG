@@ -7,6 +7,7 @@
     <title>Nine Lives</title>
     <!--main css-->
     <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/quiz.css" />
     <!--nav css-->
     <link rel="stylesheet" href="../CSS/Nav.css" />
 
@@ -22,7 +23,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body onload="setup()">
     <!-- Navbar starts here -->
     <header>
       <nav class="ninelivesnavbar">
@@ -58,10 +59,10 @@
     </header>
     <!-- Navbar ens here -->
     <!--header starts here-->
-    <h1>This is the JavaScript File volume2</h1>
+
     <!--header ends here-->
     <!--body stars here-->
-    <section id="section">
+    <!--<section id="section">
       <div class="wrapper">
         <form id="quiz" name="quiz">
           <p>what do you like more?</p>
@@ -105,7 +106,27 @@
         <p id="messages"></p>
         <p id="number_correct"></p>
       </div>
+    </section>-->
+
+    <section onload="setup()">
+      <div class="container h-100">
+        <div class="row h-100 justify-content align-items-center">
+          <div class="box">
+            <h1 id="questionNo">Quiz</h1>
+            <p id="question">Question</p>
+            <input id="text-field" type="text" class="form-control" />
+            <input
+              id="button"
+              type="submit"
+              value="submit"
+              class="btn btn-primary btn-block"
+              onclick="clickButton();"
+            />
+          </div>
+        </div>
+      </div>
     </section>
+
     <!--body ends here -->
     <!--footer starts here-->
     <footer class="footer">

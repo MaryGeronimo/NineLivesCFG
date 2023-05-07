@@ -1,44 +1,13 @@
-function check(){
-    var question1 = document.quiz.question1.value;
-    var question2 = document.quiz.question2.value;
-    var question3 = document.quiz.question3.value;
-    var correct = 0;
+//quiz part
+const questions = [['what do you like more?','sleep','food'], ['what do you like to eat?','pizza','lasagna']]
+var questionNo = 1;
 
 
-    if (question1 == 'food') {
-        correct++;
-    }
 
-    if (question2 == 'fight') {
-        correct++;
-    }
 
-    if (question3 == 'all the time') {
-        correct++;
-    }
-
-    var messages = ['you are garfield', 'you are puss in boots', 'you are tom'];
-    
-
-    var range;
-
-    if (correct < 1) {
-        range = 2;
-    }
-
-    if (correct > 0 && correct < 3) {
-        range = 1;
-    }
-
-    if (correct > 2) {
-        range = 0;
-    }
-
-    document.getElementById('after_submit').style.visibility = 'visible';
-
-    document.getElementById('messages').innerHTML = messages[range];
-    document.getElementById('number_correct').innerHTML = 'you got ' + correct + ' correct';
-
+function setup(){
+    document.getElementById('question').innerHTML = questions[0][0];
+    document.getElementById('questionNo').innerHTML = 'questions'+ questionNo;
 }
 
 // Icons on Index page turn purple on mouse hover
