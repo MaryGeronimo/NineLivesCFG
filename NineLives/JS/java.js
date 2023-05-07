@@ -1,9 +1,10 @@
 //quiz part
-const questions = [['what do you like more?','sleep','food'], ['what do you like to eat?','pizza','lasagna']]
+const questions = [['what do you like more?','sleep','food'], ['what do you like to eat?','pizza','lasagna'],['what is your thought in conflict?','fight','flight']]
 var questionNo = 1;
 var score = 0;
 
 function clickButton(){
+    check();
     questions.shift();
     questionNo++;
     setup();
@@ -13,8 +14,25 @@ function clickButton(){
 
 
 function setup(){
-    document.getElementById('question').innerHTML = questions[0][0];
-    document.getElementById('questionNo').innerHTML = 'questions'+ questionNo;
+    if(questions.length !=0){
+        document.getElementById('question').innerHTML = questions[0][0];
+        document.getElementById('questionNo').innerHTML = 'questions'+ questionNo; 
+    }
+    else{
+       document.getElementById('questionNo').innerHTML = 'you are done!';
+       document.getElementById('question').innerHTML = 'your score is ' + score;
+       document.getElementById('text-field').remove();
+       document.getElementById('button3').remove();
+    }
+}
+
+function check(){
+    if(document.getElementById('text-field').value == questions[0][1]){
+       console.log('correct');
+       score++;
+       document.getElementById('text-field').value ='';
+
+    }
 }
 
 // Icons on Index page turn purple on mouse hover

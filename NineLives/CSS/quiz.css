@@ -14,3 +14,16 @@ input{
     box-shadow:-1px 8px 15px 0px rgba(0,0,0,0.5);
 
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ .hero .button3{
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+   
+  
+}
