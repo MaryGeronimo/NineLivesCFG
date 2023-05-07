@@ -30,6 +30,16 @@ a span{
     padding: 0 60px;
 }
 
+.linkMovie{
+    color: #8f227c;
+    margin: 2% 0 3% 0;
+}
+
+.linkMovie:hover {
+    color: white;
+    background-color:#8f227c;
+} 
+
 .Meowvies{
     text-align: right;  
     display: flex;
@@ -81,6 +91,12 @@ a span{
 .catVideo{
     padding-left: 0%;
     padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#Puss{
+    padding-bottom: 5%;
 }
 
 .gameGrabs{
