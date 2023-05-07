@@ -188,9 +188,11 @@ background-color:#8f227c;
 }
 
 .attribution {
+    position: relative;
     text-align: right;
     bottom: 0px;
-    margin-right: -5px;
+    font-size: small;
+    
 }
 /* footer ends here*/
 /* javascript quiz starts here*/
@@ -203,6 +205,7 @@ background-color:#8f227c;
 #after_submit {
     visibility: hidden;
 }
+
 
 
 
