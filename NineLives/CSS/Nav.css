@@ -4,18 +4,19 @@
     margin: 0;
 }
 
-.navbar {
+.ninelivesnavbar {
     background-color: #d99ace;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 18px;
+
 }
 
 .logoIcon {
     height: 150px;
-    webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    --webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
     filter: drop-shadow(3px 3px 5px #5a5a5a);
 }
 
@@ -48,7 +49,7 @@
       
 }
 
-.navbar {
+.ninelivesnavbar {
     display: flex;
     position: fixed;
     width: 100%;
@@ -60,7 +61,7 @@
     height: 200px;
 }
 
-.navbar a {
+.ninelivesnavbar a {
     color: white;
     text-decoration: none;
 }
@@ -69,7 +70,7 @@
     background-color: white;
 }    
 
-.navbar a:hover {
+.ninelivesnavbar a:hover {
     color: black 
 }
 
@@ -85,7 +86,7 @@
 
 /* Mobile screen responsive code for */
 @media all and (max-width: 600px) {
-    .navbar {
+    .ninelivesnavbar {
         flex-direction: column;
     }
     .menu {

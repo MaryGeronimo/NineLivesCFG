@@ -17,8 +17,13 @@ h2 {
     border-radius: 15px;
 }
 
+.link{
+    color: #8f227c;
+}
+
 .about{
     padding-right:50px;
+    font-size: medium;
 }
 
 .catVase{
@@ -36,15 +41,17 @@ h2 {
     margin-right: auto;
 }
 
+
 .catArt p{
-    background-color: beige;
+    background-color: #daffcf;
     height:180px;
     margin: 10px;
     padding: 10px 10px 10px 0;
 }
 
-.catArt img{
+.camera{
     align-items: left;
+    margin-top: 20px;
 }
 
 .ruthCat{
@@ -70,7 +77,7 @@ h2 {
 }
 
 .homeCats p{
-    background-color: beige;
+    background-color:#daffcf;
     margin: 10px;
     padding: 10px;
 }
@@ -78,7 +85,6 @@ h2 {
 .homeCats img{
     align-items: left;
 }
-
 
 
 h1.a {font-family: "Audiowide", sans-serif;}
@@ -156,7 +162,6 @@ background-color:#8f227c;
     visibility: hidden;
 }
 
-}
 /* footer ends here*/
 /* javascript quiz starts here*/
 #after_submit {
@@ -191,3 +196,6 @@ background-color:#8f227c;
     font-size: 0.8rem;
  }
 }
+
+
+

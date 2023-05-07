@@ -1,0 +1,46 @@
+.filmGrabs{
+    padding: 5%;
+    display: flex;
+    position: relative;
+}
+
+.filmCats{
+    width: 27vw;
+    height: 315px;
+}
+
+a span{
+        display: none;
+        position: absolute;
+        bottom: 50px;
+        width: 27vw;
+        padding: 10px;
+        background-color: #d99ace;
+      }
+      
+      a:hover span {
+        display: block
+      }
+
+#owlKitty{
+    padding: 0 60px;
+}
+
+.Meowvies{
+    text-align: right;  
+    display: flex;
+    text-align: center;
+    background-color: #a9d99a;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.Meowvies p{
+    background-color:#daffcf;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
