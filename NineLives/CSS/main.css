@@ -52,6 +52,8 @@ h2 {
 .camera{
     align-items: left;
     margin-top: 20px;
+    --webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
 }
 
 .ruthCat{
@@ -84,6 +86,16 @@ h2 {
 
 .homeCats img{
     align-items: left;
+}
+
+.clapperboard {
+    --webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
+}
+
+.controller {
+    --webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
 }
 
 
