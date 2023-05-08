@@ -22,16 +22,21 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
     />
+
+     <!--Main font style-->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+  </style>
   </head>
   <body class="body" onload="setup()">
     <!-- Navbar starts here -->
     <header>
       <nav class="ninelivesnavbar">
         <div>
-          <img
+          <a href="./index.html"><img
             class="logoIcon"
-            src="../Pictures/Icons/Website Logo Final Choice.png"
-          />
+            src="../Pictures/Icons/Website Logo Final Choice.png "onmouseover="hoverLogo(this);" onmouseout="hoverLogoOut(this)"
+          /></a>
         </div>
         <h1 class="websiteName">Nine Lives</h1>
         <ul class="nav-list" id="navi-list">
