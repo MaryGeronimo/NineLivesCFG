@@ -1,5 +1,5 @@
 //quiz part
-const questions = [['what do you like more?','sleep','food'], ['what do you like to eat?','pizza','lasagna'],['what is your thought in conflict?','fight','flight']]
+const questions = [['which cat is known for his love for lasagna and his hatred of mondays? (grafield or Tom)','grafield',], ['who said this famous quote Fear me if you dare? (grafield or puss in boots)','puss in boots'],['what is the full name of Tom in tom and jerry?(tom cat or thomas jasper cat sr).','thomas jasper cat sr']]
 var questionNo = 1;
 var score = 0;
 
@@ -30,7 +30,7 @@ function check(){
     if(document.getElementById('text-field').value == questions[0][1]){
        console.log('correct');
        score++;
-       document.getElementById('text-field').value ='';
+       document.getElementById('text-field').value = '';
 
     }
 }
