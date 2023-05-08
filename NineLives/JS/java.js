@@ -35,6 +35,7 @@ function check(){
     }
 }
 
+// Website logo turns green on hover
 function hoverLogo(img) {
     img.src = "../Pictures/Icons/Website Logo Final Choice Green.png";
 }

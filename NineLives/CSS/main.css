@@ -222,6 +222,7 @@ background-color:#8f227c;
     visibility: hidden;
 }
 
+/* Mobile screen respnsiveness for Footer */
 @media (max-width: 900px) {
     .footer {
         flex-direction: column-reverse;
