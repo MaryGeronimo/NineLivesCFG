@@ -35,6 +35,14 @@ function check(){
     }
 }
 
+function hoverLogo(img) {
+    img.src = "../Pictures/Icons/Website Logo Final Choice Green.png";
+}
+
+function hoverLogoOut(img){
+    img.src = "../Pictures/Icons/Website Logo Final Choice.png"
+   }
+
 // Icons on Index page turn purple on mouse hover
 function hoverPhotography(img) {
     img.src = "../Pictures/Icons/Photography Icon Purple.png";
