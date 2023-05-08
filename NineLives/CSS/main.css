@@ -126,7 +126,7 @@ h1.c {font-family: "Trirong", serif;}
 footer{
     background-color:#d99ace;
     margin-top: 30px;
-    padding: 50px;
+    padding: 40px;
     padding-bottom: 10px;
 
 }
@@ -191,9 +191,19 @@ background-color:#8f227c;
 .attribution {
     position: relative;
     text-align: right;
-    bottom: 0px;
+    bottom: 30px;
     font-size: small;
     
+}
+.attribution-text{
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.contact{
+    font-style: "Trirong", serif ;
+    font-size: 20px;
 }
 /* footer ends here*/
 /* javascript quiz starts here*/

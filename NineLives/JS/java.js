@@ -1,12 +1,12 @@
 //quiz part
-const questions = [['which cat is known for his love for lasagna and his hatred of mondays? (grafield or Tom)','grafield',], ['who said this famous quote Fear me if you dare? (grafield or puss in boots)','puss in boots'],['what is the full name of Tom in tom and jerry?(tom cat or thomas jasper cat sr).','thomas jasper cat sr']]
+const questions = [['which cat is known for his love for lasagna and his hatred of mondays? (Garfield or Tom)','Garfield',], ['who said this famous quote Fear me if you dare? (Garfield or Puss in boots)','Puss in boots'],['what is the full name of Tom in tom and jerry?(Tom cat or Thomas jasper cat sr).','Thomas jasper cat sr']]
 var questionNo = 1;
 var score = 0;
 
 function clickButton(){
     check();
     questions.shift();
-    questionNo++;
+    questionNo ++;
     setup();
     
 }
@@ -16,7 +16,7 @@ function clickButton(){
 function setup(){
     if(questions.length !=0){
         document.getElementById('question').innerHTML = questions[0][0];
-        document.getElementById('questionNo').innerHTML = 'questions'+ questionNo; 
+        document.getElementById('questionNo').innerHTML = 'questions '+ questionNo; 
     }
     else{
        document.getElementById('questionNo').innerHTML = 'you are done!';

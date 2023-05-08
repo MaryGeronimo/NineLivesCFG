@@ -7,12 +7,14 @@ input{
 }
 .box{
     padding: 40px;
-    width: 500px;
-    font-family: "Sofia", sans-serif;
+    width: 550px;
+    font-family: cursive;
     border-radius: 10px;
     -webkit-box-shadow:-1px 8px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow:-1px 8px 15px 0px rgba(0,0,0,0.5);
     box-shadow:-1px 8px 15px 0px rgba(0,0,0,0.5);
+    
+   
 
 }
 .hero{
@@ -32,15 +34,17 @@ input{
 .headingquiz{
    padding: 10px ;
    border: 1px solid;
-   margin-left: 400px;
-   margin-right: 400px;
+   margin-left: 420px;
+   margin-right: 420px;
    font-size: 20px;
-   font-family: "Sofia", sans-serif;
+   font-family: cursive;
    display: flex;
    justify-content: center;
    border-radius: 10px;
    -webkit-box-shadow:-1px 8px 10px 0px rgba(0,0,0,0.5);
    -moz-box-shadow:-1px 8px 10px 0px rgba(0,0,0,0.5);
    box-shadow:-1px 8px 10px 0px rgba(0,0,0,0.5);
+   
+ 
    
 }
