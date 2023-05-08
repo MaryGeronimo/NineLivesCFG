@@ -8,6 +8,7 @@ input{
 .box{
     padding: 40px;
     width: 500px;
+    font-family: "Sofia", sans-serif;
     border-radius: 10px;
     -webkit-box-shadow:-1px 8px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow:-1px 8px 15px 0px rgba(0,0,0,0.5);
@@ -21,9 +22,25 @@ input{
    
 }
  .hero .button3{
-    margin: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
     color: black;
     font-size: 20px;
    
   
+}
+.headingquiz{
+   padding: 10px ;
+   border: 1px solid;
+   margin-left: 400px;
+   margin-right: 400px;
+   font-size: 20px;
+   font-family: "Sofia", sans-serif;
+   display: flex;
+   justify-content: center;
+   border-radius: 10px;
+   -webkit-box-shadow:-1px 8px 10px 0px rgba(0,0,0,0.5);
+   -moz-box-shadow:-1px 8px 10px 0px rgba(0,0,0,0.5);
+   box-shadow:-1px 8px 10px 0px rgba(0,0,0,0.5);
+   
 }

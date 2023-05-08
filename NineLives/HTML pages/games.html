@@ -1,205 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nine Lives</title>
+    <!--bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <!--movies css-->
+    <link rel="stylesheet" href="../CSS/movies.css" />
+    <!-- Navbar CSS -->
+    <link rel="stylesheet" href="../CSS/Nav.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nine Lives</title>
-  <!--bootstrap link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../CSS/main.css" />
-  <!--movies css-->
-  <link rel="stylesheet" href="../CSS/movies.css">
-  <!-- Navbar CSS -->
-  <link rel="stylesheet" href="../CSS/Nav.css" />
-  
-</head>
+  <body>
+    <header>
+      <!-- Navbar starts here -->
+      <nav class="ninelivesnavbar">
+        <div>
+          <img
+            class="logoIcon"
+            src="../Pictures/Icons/Website Logo Final Choice.png"
+          />
+        </div>
+        <h1 class="websiteName">Nine Lives</h1>
+        <ul class="nav-list" id="navi-list">
+          <li class="nav-links">
+            <a href="./index.html">Homepage</a>
+          </li>
+          <li class="nav-links">
+            <a href="./movies.html">Furry Flix</a>
+          </li>
+          <li class="nav-links">
+            <a href="./games.html">Cat Quests</a>
+          </li>
+          <li class="nav-links">
+            <a href="./quiz.html">Kitty Quiz</a>
+          </li>
+        </ul>
+        <div class="menu" id="toggleButton">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+      <div class="block"></div>
+    </header>
+    <!--Navbar ends here  -->
+    <br />
 
-<body>
-  <header>
-    <!-- Navbar starts here -->
-    <nav class="ninelivesnavbar">
-      <div>
-        <img class="logoIcon" src="../Pictures/Icons/Website Logo Final Choice.png" />
-      </div>
-      <h1 class="websiteName">Nine Lives</h1>
-      <ul class="nav-list" id="navi-list">
-        <li class="nav-links">
-          <a href="./index.html">Homepage</a>
-        </li>
-        <li class="nav-links">
-          <a href="./movies.html">Furry Flix</a>
-        </li>
-        <li class="nav-links">
-          <a href="./games.html">Cat Quests</a>
-        </li>
-        <li class="nav-links">
-          <a href="./quiz.html">Kitty Quiz</a>
-        </li>
-      </ul>
-      <div class="menu" id="toggleButton">
-        <div class="menu-line"></div>
-        <div class="menu-line"></div>
-        <div class="menu-line"></div>
-        <div class="menu-line"></div>
-      </div>
-    </nav>
-    <div class="block"></div>
-  </header>
-  <!--Navbar ends here  -->
-  <br />
+    <!--body starts here-->
+    <!--paragraph on cats in games-->
 
-  <!--body starts here-->
-  <!--paragraph on cats in games-->
+    <div class="gameGrabs">
+      <iframe
+        id="stray"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/kJawWyRUOBM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
 
-  <div class="gameGrabs">
+      <a>
+        <img class="gameCats" src="/NineLives/Pictures/Games/Stray cat.jpg" />
+        <span
+          >This beautiful creature is the main protagonist of the PS5 game
+          <i>Stray</i>, which is set in a futuristic world.</span
+        >
+      </a>
 
-
-    <iframe id="stray" width="560" height="315" src="https://www.youtube.com/embed/kJawWyRUOBM"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-
-    <a>
-      <img class="gameCats" src="/NineLives/Pictures/Games/Stray cat.jpg">
-      <span>This beautiful creature is the main protagonist of the PS5 game <i>Stray</i>, which is set in a futuristic
-        world.</span>
-    </a>
-
-    <a>
-      <img class="gameCats" src="/NineLives/Pictures/Games/Stray cat real.jpg">
-      <span>The team behind <i>Stray</i> used 8 year old Murtaugh as inspiration. Apparently he is a very lazy
-        co-worker.</span>
-    </a>
-
-  </div>
-
-  <div class="Meowvies">
-    <p>
-      Purrformers since birth, cats are inherent actors! Here, we will discuss some of their
-      best purrformances. The very first cat to be shown on screen was the star of the 1901
-      silent short comedic film <i>The Sick Kitten</i>, which was only 34 seconds long. Ever since, they have been a
-      cinema staple! Sometimes they're cute, and sometimes they're creepy, but a film is almost
-      always more interesting with a feline friend. From Church the cat in <i>Pet Sematary</i> to the Hanna Barbera
-      cartoon cat Tom in <i>Tom and Jerry</i>, we love them all. Check out our <a class="link"
-        href="https://www.youtube.com/@NineLives.Trivia" target="_blank">YouTube</a> channel, where we discuss our
-      favourite cat
-      characters. Let us know if you think we've missed someone!
-    </p>
-  </div>
-
-<div class="gameInfo">
-<div class="gameVideo">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OQTxp4ZkYMQ" title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+      <a>
+        <img
+          class="gameCats"
+          src="/NineLives/Pictures/Games/Stray cat real.jpg"
+        />
+        <span
+          >The team behind <i>Stray</i> used 8 year old Murtaugh as inspiration.
+          Apparently he is a very lazy co-worker.</span
+        >
+      </a>
     </div>
 
-
-  <div class="gameBox">
-    <div class="gameText">
-
+    <div class="Meowvies">
       <p>
-        Since the dawn of cinema, in 1895, cats have famously been depicted in
-        live action and animated meowvies. You may be familiar with the work of
-        Garfield and TopCat but we endeavour to reveal some hidden purrformers
-        to you. Here, you will learn more about ‘the cat in Aliens’ and the
-        black cat in Sabrina the Teenage Witch so <i>aptly</i> named Salem. We
-        have even delved into the YouTube sensation that is Owl Kitty, a creator
-        who uses editing software to seamlessly incorporate his cat into classic
-        movie scenes. If you are a film buff, you will love our Furry Flix!
+        Purrformers since birth, cats are inherent actors! Here, we will discuss
+        some of their best purrformances. The very first cat to be shown on
+        screen was the star of the 1901 silent short comedic film
+        <i>The Sick Kitten</i>, which was only 34 seconds long. Ever since, they
+        have been a cinema staple! Sometimes they're cute, and sometimes they're
+        creepy, but a film is almost always more interesting with a feline
+        friend. From Church the cat in <i>Pet Sematary</i> to the Hanna Barbera
+        cartoon cat Tom in <i>Tom and Jerry</i>, we love them all. Check out our
+        <a
+          class="link"
+          href="https://www.youtube.com/@NineLives.Trivia"
+          target="_blank"
+          >YouTube</a
+        >
+        channel, where we discuss our favourite cat characters. Let us know if
+        you think we've missed someone!
       </p>
     </div>
 
-    <div class="gameText">
-
-      <p>
-        Since the dawn of cinema, in 1895, cats have famously been depicted in
-        live action and animated meowvies. You may be familiar with the work of
-        Garfield and TopCat but we endeavour to reveal some hidden purrformers
-        to you. Here, you will learn more about ‘the cat in Aliens’ and the
-        black cat in Sabrina the Teenage Witch so <i>aptly</i> named Salem. We
-        have even delved into the YouTube sensation that is Owl Kitty, a creator
-        who uses editing software to seamlessly incorporate his cat into classic
-        movie scenes. If you are a film buff, you will love our Furry Flix!
-      </p>
-    </div>
-
-    <div class="gameText">
-
-      <p>
-        Since the dawn of cinema, in 1895, cats have famously been depicted in
-        live action and animated meowvies. You may be familiar with the work of
-        Garfield and TopCat but we endeavour to reveal some hidden purrformers
-        to you. Here, you will learn more about ‘the cat in Aliens’ and the
-        black cat in Sabrina the Teenage Witch so <i>aptly</i> named Salem. We
-        have even delved into the YouTube sensation that is Owl Kitty, a creator
-        who uses editing software to seamlessly incorporate his cat into classic
-        movie scenes. If you are a film buff, you will love our Furry Flix!
-      </p>
-    </div>
-
-  </div>
-
-  </div>
-
-
-  <!--footer starts here-->
-  <footer class="footer">
-    <div class="wrapper">
-      <div class="button">
-        <div class="icons">
-          <a href=""><img src="/NineLives/Pictures/Icons/Instagram_Glyph_Black.png" width="40px" /></a>
-        </div>
-        <span>instagram</span>
+    <div class="gameInfo">
+      <div class="gameVideo">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/OQTxp4ZkYMQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
 
-      <div class="button">
-        <div class="icons">
-          <a href="http://tiktok.com/@NineLives.Trivia"><img
-              src="/NineLives/Pictures/Icons/TikTok_Icon_Black_Circle.png" width="40px" /></a>
+      <div class="gameBox">
+        <div class="gameText">
+          <p>
+            Since the dawn of cinema, in 1895, cats have famously been depicted
+            in live action and animated meowvies. You may be familiar with the
+            work of Garfield and TopCat but we endeavour to reveal some hidden
+            purrformers to you. Here, you will learn more about ‘the cat in
+            Aliens’ and the black cat in Sabrina the Teenage Witch so
+            <i>aptly</i> named Salem. We have even delved into the YouTube
+            sensation that is Owl Kitty, a creator who uses editing software to
+            seamlessly incorporate his cat into classic movie scenes. If you are
+            a film buff, you will love our Furry Flix!
+          </p>
         </div>
-        <span>tiktok</span>
-      </div>
 
-      <div class="button">
-        <div class="icons">
-          <a href="https://twitter.com/NineLives_Triv"><img
-              src="/NineLives/Pictures/Icons/2021 Twitter logo - black.png" width="40px" /></a>
+        <div class="gameText">
+          <p>
+            Since the dawn of cinema, in 1895, cats have famously been depicted
+            in live action and animated meowvies. You may be familiar with the
+            work of Garfield and TopCat but we endeavour to reveal some hidden
+            purrformers to you. Here, you will learn more about ‘the cat in
+            Aliens’ and the black cat in Sabrina the Teenage Witch so
+            <i>aptly</i> named Salem. We have even delved into the YouTube
+            sensation that is Owl Kitty, a creator who uses editing software to
+            seamlessly incorporate his cat into classic movie scenes. If you are
+            a film buff, you will love our Furry Flix!
+          </p>
         </div>
-        <span>twitter</span>
-      </div>
 
-      <div class="button">
-        <div class="icons">
-          <a href="https://www.facebook.com/NineLives.Trivia"><img
-              src="/NineLives/Pictures/Icons/f_logo_RGB-Black_72.png" width="40px" /></a>
+        <div class="gameText">
+          <p>
+            Since the dawn of cinema, in 1895, cats have famously been depicted
+            in live action and animated meowvies. You may be familiar with the
+            work of Garfield and TopCat but we endeavour to reveal some hidden
+            purrformers to you. Here, you will learn more about ‘the cat in
+            Aliens’ and the black cat in Sabrina the Teenage Witch so
+            <i>aptly</i> named Salem. We have even delved into the YouTube
+            sensation that is Owl Kitty, a creator who uses editing software to
+            seamlessly incorporate his cat into classic movie scenes. If you are
+            a film buff, you will love our Furry Flix!
+          </p>
         </div>
-        <span>facebook</span>
       </div>
     </div>
 
-    <div class="button2">
-      <button class="btn">
-        <a class="link" href="https://www.youtube.com/@NineLives.Trivia">
-          <img class="youtube" src="/NineLives/Pictures/Icons/yt_logo_rgb_light.png" width="70px" />
-        </a>
-      </button>
+    <!--footer starts here-->
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="button">
+          <div class="icons">
+            <a href=""
+              ><img
+                src="/NineLives/Pictures/Icons/Instagram_Glyph_Black.png"
+                width="40px"
+            /></a>
+          </div>
+          <span>instagram</span>
+        </div>
 
-      <div class="attribution">
-        <a href="https://storyset.com/animal">Animal illustrations by Storyset</a>
+        <div class="button">
+          <div class="icons">
+            <a href="http://tiktok.com/@NineLives.Trivia"
+              ><img
+                src="/NineLives/Pictures/Icons/TikTok_Icon_Black_Circle.png"
+                width="40px"
+            /></a>
+          </div>
+          <span>tiktok</span>
+        </div>
+
+        <div class="button">
+          <div class="icons">
+            <a href="https://twitter.com/NineLives_Triv"
+              ><img
+                src="/NineLives/Pictures/Icons/2021 Twitter logo - black.png"
+                width="40px"
+            /></a>
+          </div>
+          <span>twitter</span>
+        </div>
+
+        <div class="button">
+          <div class="icons">
+            <a href="https://www.facebook.com/NineLives.Trivia"
+              ><img
+                src="/NineLives/Pictures/Icons/f_logo_RGB-Black_72.png"
+                width="40px"
+            /></a>
+          </div>
+          <span>facebook</span>
+        </div>
       </div>
-  
-    </div>
-  </footer>
-  <!--footer ends here-->
-  <script src="../JS/java.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-</body>
 
+      <div class="button2">
+        <button class="btn">
+          <a class="link" href="https://www.youtube.com/@NineLives.Trivia">
+            <img
+              class="youtube"
+              src="/NineLives/Pictures/Icons/yt_logo_rgb_light.png"
+              width="70px"
+            />
+          </a>
+        </button>
+
+        <div class="attribution">
+          <a href="https://storyset.com/animal"
+            >Animal illustrations by Storyset</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!--footer ends here-->
+    <script src="../JS/java.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
