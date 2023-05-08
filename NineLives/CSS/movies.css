@@ -10,15 +10,15 @@
 
 .filmCats{
     width: 27vw;
-    height: 315px;
+    height: 20vw;
 }
 
 a span{
         display: none;
         position: absolute;
-        bottom: 50px;
+        bottom: 8%;
         width: 27vw;
-        padding: 10px;
+        padding: 0.5%;
         background-color: #d99ace;
       }
       
@@ -27,7 +27,7 @@ a span{
       }
 
 #owlKitty{
-    padding: 0 60px;
+    padding: 0 3%;
 }
 
 .linkMovie{
@@ -46,7 +46,7 @@ a span{
     text-align: center;
     background-color: #a9d99a;
     width: 80%;
-    padding: 10px;
+    padding: 1%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3%;
@@ -54,8 +54,8 @@ a span{
 
 .Meowvies p{
     background-color:#daffcf;
-    margin: 10px;
-    padding: 10px;
+    margin: 1%;
+    padding: 1%;
     width: 100%;
 }
 
@@ -65,16 +65,14 @@ a span{
     text-align: left;
     background-color: #a9d99a;
     width: 80%;
-    padding: 10px;
-    margin-left: 5%;
-    margin-bottom: 30px;
-    margin-right: 0;
+    padding: 1%;
+    margin: 0 0 5% 10%;
 }
 
 .movieText p{
     background-color:#daffcf;
-    margin: 10px;
-    padding: 10px;
+    margin: 2%;
+    padding: 1%;
     width: 100%;
 }
 
@@ -84,7 +82,7 @@ a span{
     align-items: center;
 }
 
-.floatLeft{
+.movieColumn{
     padding-right: 0;
 }
 
@@ -107,18 +105,22 @@ a span{
 
 .gameCats{
     width: 27vw;
-    height: 315px;
-    margin-right: 5vw;
-
+    height: 20.5vw;
+    margin-right: 4vw;
 }
 
 #stray{
-    padding: 0 60px;
+    padding: 0 4%;
 }
 
 .gameVideo{
-    padding-left: 5vw;
-    padding-right: 0%;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+
+#imgAC{
+    display: flex;
+    padding-top: 5%;
 }
 
 .gameInfo{
@@ -128,7 +130,7 @@ a span{
 }
 
 .gameBox{
-    padding-left: 100px;
+    padding-left: 6vw;
 }
 
 .gameText{
@@ -137,15 +139,13 @@ a span{
     text-align: left;
     background-color: #a9d99a;
     width: 80%;
-    padding: 10px;
-    margin-left: 10%;
-    margin-bottom: 30px;
-    margin-right: 0;
+    padding: 2%;
+    margin: 0 6% 5% 0;
 }
 
 .gameText p{
     background-color:#daffcf;
-    margin: 10px;
-    padding: 10px;
+    margin: 1%;
+    padding: 1%;
     width: 100%;
 }
