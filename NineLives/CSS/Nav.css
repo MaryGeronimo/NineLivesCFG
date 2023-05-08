@@ -85,7 +85,7 @@
     margin-bottom: 4px;
 }
 
-/* Mobile screen responsive code for */
+/* Mobile screen responsive code for Navbar*/
 @media all and (max-width: 600px) {
     .ninelivesnavbar { 
         flex-direction: column;
