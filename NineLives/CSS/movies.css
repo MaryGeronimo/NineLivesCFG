@@ -8,9 +8,6 @@
     position: relative;
 }
 
-.filmGrabs h3{
-    font-size: smaller;
-}
 
 .filmCats{
     width: 27vw;
@@ -113,9 +110,6 @@ a span{
     margin-right: 4vw;
 }
 
-.gameGrabs h3{
-    font-size: smaller;
-}
 
 #stray{
     padding: 0 4%;
