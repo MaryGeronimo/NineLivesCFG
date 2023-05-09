@@ -37,36 +37,36 @@ function check(){
 
 // Website logo turns green on hover
 function hoverLogo(img) {
-    img.src = "../Pictures/Icons/Website Logo Final Choice Green.png";
+    img.src = "/NineLives/Pictures/Icons/Website Logo Final Choice Green.png";
 }
 
 function hoverLogoOut(img){
-    img.src = "../Pictures/Icons/Website Logo Final Choice.png"
+    img.src = "/NineLives/Pictures/Icons/Website Logo Final Choice.png"
    }
 
 // Icons on Index page turn purple on mouse hover
 function hoverPhotography(img) {
-    img.src = "../Pictures/Icons/Photography Icon Purple.png";
+    img.src = "/NineLives/Pictures/Icons/Photography Icon Purple.png";
 }
 
 function hoverPhotographyOut(img){
-    img.src = "../Pictures/Icons/Photography Icon V3.png"
+    img.src = "/NineLives/Pictures/Icons/Photography Icon V3.png"
    }
 
    function hoverFilm(img) {
-    img.src = "../Pictures/Icons/Film Icon Purple.png";
+    img.src = "/NineLives/Pictures/Icons/Film Icon Purple.png";
 }
 
 function hoverFilmOut(img){
-    img.src = "../Pictures/Icons/Film Icon V3.png"
+    img.src = "/NineLives/Pictures/Icons/Film Icon V3.png"
    }
 
    function hoverGaming(img) {
-    img.src = "../Pictures/Icons/Gaming Icon Purple.png";
+    img.src = "/NineLives/Pictures/Icons/Gaming Icon Purple.png";
 }
 
 function hoverGamingOut(img){
-    img.src = "../Pictures/Icons/Gaming Icon V3.png"
+    img.src = "/NineLives/Pictures/Icons/Gaming Icon V3.png"
    }
 
 //enables Navbar mobile dropdown link menu
