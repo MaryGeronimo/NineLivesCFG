@@ -41,7 +41,7 @@ function hoverLogo(img) {
 }
 
 function hoverLogoOut(img){
-    img.src = "../Pictures/Icons/Website Logo Final Choice.png"
+    img.src = "../pictures/Icons/Website Logo Final Choice.png"
    }
 
    function hoverLogoMain(img) {
