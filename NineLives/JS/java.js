@@ -37,11 +37,19 @@ function check(){
 
 // Website logo turns green on hover
 function hoverLogo(img) {
-    img.src = "../../NineLives/Pictures/Icons/Website Logo Final Choice Green.png";
+    img.src = "../Pictures/Icons/Website Logo Final Choice Green.png";
 }
 
 function hoverLogoOut(img){
-    img.src = "../../NineLives/Pictures/Icons/Website Logo Final Choice.png"
+    img.src = "../Pictures/Icons/Website Logo Final Choice.png"
+   }
+
+   function hoverLogoMain(img) {
+    img.src = "./NineLives/Pictures/Icons/Website Logo Final Choice Green.png";
+}
+
+function hoverLogoMainOut(img){
+    img.src = "./NineLives/Pictures/Icons/Website Logo Final Choice.png"
    }
 
 // Icons on Index page turn purple on mouse hover
