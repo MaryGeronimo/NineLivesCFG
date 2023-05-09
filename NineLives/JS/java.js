@@ -49,7 +49,7 @@ function hoverLogoOut(img){
 }
 
 function hoverLogoMainOut(img){
-    img.src = "./NineLives/Pictures/Icons/Website Logo Final Choice.png"
+    img.src = "./NineLives/pictures/Icons/Website Logo Final Choice.png"
    }
 
 // Icons on Index page turn purple on mouse hover
