@@ -12,7 +12,7 @@
     padding-bottom: 0%;
 }
 
-.introText{
+#introText{
     padding-left: 10%;
     font-size: xx-large;
     font-family: "Delicious Handrawn";
@@ -30,7 +30,7 @@
     padding-top: 0%;
 }    
 
-.catPlaying{
+#catPlaying{
     padding: 0 5% 0 2%;
 }
 
