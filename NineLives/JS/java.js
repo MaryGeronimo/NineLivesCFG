@@ -46,27 +46,27 @@ function hoverLogoOut(img){
 
 // Icons on Index page turn purple on mouse hover
 function hoverPhotography(img) {
-    img.src = "../../NineLives/Pictures/Icons/Photography Icon Purple.png";
+    img.src = "./NineLives/Pictures/Icons/Photography Icon Purple.png";
 }
 
 function hoverPhotographyOut(img){
-    img.src = "../../NineLives/Pictures/Icons/Photography Icon V3.png"
+    img.src = "./NineLives/Pictures/Icons/Photography Icon V3.png"
    }
 
    function hoverFilm(img) {
-    img.src = "../../NineLives/Pictures/Icons/Film Icon Purple.png";
+    img.src = "./NineLives/Pictures/Icons/Film Icon Purple.png";
 }
 
 function hoverFilmOut(img){
-    img.src = "../../NineLives/Pictures/Icons/Film Icon V3.png"
+    img.src = "./NineLives/Pictures/Icons/Film Icon V3.png"
    }
 
    function hoverGaming(img) {
-    img.src = "../../NineLives/Pictures/Icons/Gaming Icon Purple.png";
+    img.src = "./NineLives/Pictures/Icons/Gaming Icon Purple.png";
 }
 
 function hoverGamingOut(img){
-    img.src = "../../NineLives/Pictures/Icons/Gaming Icon V3.png"
+    img.src = "./NineLives/Pictures/Icons/Gaming Icon V3.png"
    }
 
 //enables Navbar mobile dropdown link menu
